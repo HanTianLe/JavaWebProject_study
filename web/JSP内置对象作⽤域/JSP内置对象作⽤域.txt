@@ -1,0 +1,17 @@
+JSP 内置对象作⽤域:4个
+    page、request、session、application
+
+    这4个都有：setAttribute、getAttribute 方法。
+
+    page 作⽤域：       对应的内置对象是 pageContext。
+    request 作⽤域：    对应的内置对象是 request。
+    session 作⽤域：    对应的内置对象是 session。
+    application 作⽤域：对应的内置对象是 application。
+
+    作用域相比：page < request < session < application
+
+    page        只在当前⻚⾯有效。
+    request     在⼀次请求内有效。
+    session     在⼀次会话内有效。
+    application 对应整个 WEB 应⽤的。（相当于Tomcat。）
+
